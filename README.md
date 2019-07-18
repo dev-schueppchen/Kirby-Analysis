@@ -33,7 +33,7 @@ The data will be saved in your working directory in `./data/[moduleName].csv`. T
 
 ### Contributing
 
-If you want to contribute custom modules, just follow the `IModule` interface at `/src/modules/module.ts` which must be umplemented by a custom module. Then, just import it into the `main.ts` and register it with a name identifier in the `modules` map.
+If you want to contribute custom modules, just follow the `IModule` interface at `/src/modules/module.ts` which must be implemented by a custom module. Then, just import it into the `main.ts` and register it with a name identifier in the `modules` map.
 
 ```ts
 import MyModule from './modules/channel/message/messagecountat1337oclock';
